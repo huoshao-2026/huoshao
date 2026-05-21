@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>火烧夹一切 - 点餐</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>火烧夹一切</h1>
+  <p>现烤火烧 · 夹一切好吃的</p>
+</header>
+
+<main>
+  <section class="menu">
+    <h2>美食菜单</h2>
+    <div class="menu-list" id="menuList"></div>
+  </section>
+
+  <section class="cart">
+    <h2>我的购物车</h2>
+    <div id="cartList"></div>
+    <div class="total">总计：¥<span id="totalPrice">0</span></div>
+    <button id="orderBtn">立即下单联系商家</button>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
